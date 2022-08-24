@@ -1,0 +1,1 @@
+document.getElementById("anchor").addEventListener("click", e.preventDefault())

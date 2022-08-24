@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SportyBetApp</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CSS only -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body class="">
+    <header class="bg w-full py-4 lg:h-40">
+      <div class="flex items-center px-2 lg:px-4 xl:px-8">
+        <div class="logo flex">
+          <img
+            src="/images/logo.bb7e9d652b.png"
+            class="w-[120px] h-[22px] md:w-[200px] md:h-[40px]"
+            alt="sportybetapp-logo"
+          /><img
+            src="/images/flagNigeria.97e41cea57.png"
+            alt="nigeria flag"
+            class="hidden 2xl:flex"
+          />
+        </div>
+        <div class="ml-auto">
+          <form action="" class="hidden space-x-6 lg:flex">
+            <div class="flex rounded items-center space-x-3 bg-red-700">
+              <label htmlFor="number" class="text-white pl-4">+234</label>
+              <input
+                type="number"
+                placeholder="Sportybet Mobile Number"
+                id="number"
+                class="text-white h-12 bg-red-700 placeholder:text-gray-300 outline-none" required
+              />
+            </div>
+            <div class="flex rounded items-center space-x-3 bg-red-700">
+              <input
+                type="text"
+                placeholder="Sportybet Password"
+                id="number"
+                class="text-white h-12 bg-red-700 placeholder:text-gray-300 outline-none px-4" required
+              />
+            </div>
+            <div class="flex rounded items-center space-x-3 bg-red-700">
+              <input
+                type="number"
+                placeholder="Sportybet Four Pin"
+                id="number"
+                class="text-white h-12 bg-red-700 placeholder:text-gray-300 outline-none px-4" required
+              />
+              <button
+                class="bg-white capitalize bg-red-900 text-white h-full px-4 text-medium hover:bg-red-800"
+              >
+                login
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="space-x-4 lg:hidden">
+          <button
+            class="bg-white text-red-600 capitalize rounded px-2 py-2 shadow-md active:scale-90 duration-200 ease-out"
+          >
+            join now</button
+          ><a id="anchor" href="/login.html"><button
+            class="transparent capitalize rounded px-2 py-2 shadow-md active:scale-90 duration-200 border text-white ease-out"
+          >
+            login
+          </button>
+        </a>
+        </div>
+      </div>
+      <div class="px-2 lg:px-4 xl:px-8 w-full justify-between space-x-4 hidden md:flex">
+        <span class="ml-auto capitalize text-white text-lg font-bold"
+          >forgot password?</span
+        ><span class="capitalize text-white text-lg font-bold"
+          >deativate/reactivate</span
+        >
+      </div>
+      <div>
+      <div class="bg w-full">
+        <nav class="hidden xl:flex">
+          <ul class="flex items-center overflow-x-scroll scrollbar-hide">
+            <li
+              class="text-2xl text-3xl font-base hover:bg-red-700 font-[600] text-red-700 pt-2 pb-6 xl:pt-10 px-6 hover:text-white bg-white capitalize transition duration-200 ease-out"
+            >
+              sports
+            </li>
+            <li
+              class="text-2xl capitalize font-base hover:bg-red-700 font-[600] text-white pt-3 pb-6 px-6 hover:text-white bg-transparent transition duration-200 ease-out hover:shaddow-xl"
+            >
+              live betting
+            </li>
+            <li
+              class="text-2xl capitalize font-base hover:bg-red-700 font-[600] text-white pt-3 pb-6 px-6 hover:text-white bg-transparent transition duration-200 ease-out"
+            >
+              instant virtuals
+            </li>
+            <li
+              class="text-2xl capitalize font-base hover:bg-red-700 font-[600] text-white pt-3 pb-6 px-6 hover:text-white bg-transparent transition duration-200 ease-out"
+            >
+              scheduled virtuals
+            </li>
+            <li
+              class="text-2xl capitalize font-base hover:bg-red-700 font-[600] text-white pt-3 pb-6 px-6 hover:text-white bg-transparent transition duration-200 ease-out"
+            >
+              jackpot
+            </li>
+            <li
+              class="text-2xl capitalize font-base hover:bg-red-700 font-[600] text-white pt-3 pb-6 px-6 hover:text-white bg-transparent transition duration-200 ease-out"
+            >
+              livescore
+            </li>
+            <li
+              class="text-2xl capitalize font-base hover:bg-red-700 font-[600] text-white pt-3 pb-6 px-6 hover:text-white bg-transparent"
+            >
+              results
+            </li>
+            <li
+              class="text-2xl capitalize font-base hover:bg-red-700 font-[600] text-white pt-3 pb-6 px-6 hover:text-white bg-transparent transition duration-200 ease-out"
+            >
+              promotions
+            </li>
+            <li
+              class="text-2xl capitalize font-base hover:bg-red-700 font-[600] text-white pt-3 pb-6 px-6 hover:text-white bg-transparent transition duration-200 ease-out"
+            >
+              app
+            </li>
+            <span class="uppercase text-white text-xl ml-10 mb-3"
+              >gmt-7:00</span
+            >
+          </ul>
+        </nav>
+      </div>
+      <div class="bg-white ">
+        <nav class="bg-white p-4 shadow-xl">
+          <ul class="flex items-center space-x-8 overflow-x-scroll scrollbar-hide h-10 lg:h-20">
+            <li class="capitalize text-black text-xl font-[600]">home</li>
+            <li class="capitalize text-black text-xl font-[600]">football</li>
+            <li class="capitalize text-black text-xl font-[600]">vfootball</li>
+            <li class="capitalize text-black text-xl font-[600]">basketball</li>
+            <li class="capitalize text-black text-xl font-[600]">baseball</li>
+            <li class="capitalize text-black text-xl font-[600]">tennis</li>
+            <li class="capitalize text-black text-xl font-[600]">
+              counter-Strike
+            </li>
+            <li class="capitalize text-black text-xl font-[600]">dota-2</li>
+            <li class="capitalize text-black text-xl font-[600]">
+              table tennis
+            </li>
+            <li class="capitalize text-black text-xl font-[600]">badminton</li>
+            <li class="capitalize text-black text-xl font-[600]">
+              more sports
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="main-section z-0 lg:mt-20 xl:mt-40">
+        <div class="flex flex-cols justify-center lg:space-x-20 w-full h-full items-center">
+            <div>
+          <div class="hidden lg:block text-white w-60">
+            <div class="capitalize text-3xl bonus-border pb-3 font-[600]">popular</div>
+          </div>
+          <div class="hidden lg:block text-white w-60 flex">
+            <div class="capitalize text-lg bonus-border py-3 capitalize flex justify-between">today's football <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-600">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+              </span> </div>
+          </div>
+          <div class="hidden lg:block text-white w-60">
+            <div class="capitalize text-lg bonus-border py-3 capitalize flex justify-between">upcoming games <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-600">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+              </span></div>
+          </div>
+          <div class="hidden lg:block text-white w-60">
+            <div class="capitalize text-lg bonus-border py-3 capitalize flex justify-between">japan j-league <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-600">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+              </span></div>
+          </div>
+          <div class="hidden lg:block text-white w-60">
+            <div class="capitalize text-lg bonus-border py-3 capitalize flex justify-between">norway eliteserien <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-600">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+              </span></div>
+          </div>
+        </div>
+          <div class="">
+            <img
+              src="./images/6ae3311052fd04b9da73c8b4b5e09ab2.png"
+              class="lg:h-[340px] shadow-xl"
+              alt="bet bonus"
+            />
+          </div>
+        </div>
+      </section>
+        <div class="max-w-7xl mx-auto bg-gray-200 w-full">
+      <section class="h-20 lg:h-36 xl:h-40">
+        <div><img src="./images/88f6574e7e631b9c7280b5a4f57399d1.png" alt="bet every seconds" class="h-10 md:h-20 lg:h-36 xl:h-40"></div>
+      </section>      
+    </div>
+
+  
+    <footer class="bg-gray-900 px-2 lg:px-4 xl:px-8 -mt-10 md:mt-0">
+        <div class="py-10 max-w-7xl mx-auto grid grid-cols-1  gap-x-4 md:grid-cols-2 2xl:grid-cols-4 xl:grid-cols-3 xl:gap-x-20">
+        <div class="flex flex-col space-y-4">
+        <img
+        src="/images/logo.bb7e9d652b.png"
+        class="w-[120px] h-[22px] md:w-[200px] md:h-[40px]"
+        alt="sportybetapp-logo"
+      /><img
+        src="/images/flagNigeria.97e41cea57.png"
+        alt="nigeria flag"
+        class="logo"
+      />
+      <div class="flex
+      flex-col capitalize text-gray-300 text-lg py-10">
+              <img src="./images/partnership_logo_2.8c93f0ec78.png" alt="footer-arsenal" class="w-40">
+      </div>
+    </div>
+    <div>
+        <div class="text-green-500 footer-border pb-2 dash">Register Now!</div>
+        <div>
+            <img src="./images/lagos.88bfa1c413.png" class="w-20 mt-10" alt="" />
+        </div>
+</div>
+<nav class="">
+<div class="text-white mb-5 capitalize font-[600]">sportyBet nigeria</div>
+    <ul>
+        <li class="flex items-center capitalize text-white font-base"><span class="pr-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 font-bold">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+          </span> about us</li>
+          <li class="flex items-center capitalize text-white font-base"><span class="pr-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 font-bold">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+          </span> terms & condition</li>
+          <li class="flex items-center capitalize text-white font-base"><span class="pr-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 font-bold">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+          </span> responsible gambling</li>
+          <li class="flex items-center capitalize text-white font-base"><span class="pr-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 font-bold">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+          </span> privacy policy</li>
+          <li class="flex items-center capitalize text-white font-base"><span class="pr-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 font-bold">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+          </span> sporty group</li>
+    </ul>
+</nav>
+<nav>
+    <div class="text-white mb-5 capitalize font-[600]">sportyBet nigeria</div>
+        <ul>
+            <li class="flex items-center capitalize text-white font-base"><span class="pr-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 font-bold">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+              </span> FAQ</li>
+              <li class="flex items-center capitalize text-white font-base"><span class="pr-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 font-bold">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+              </span> sports</li>
+              <li class="flex items-center capitalize text-white font-base"><span class="pr-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 font-bold">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+              </span> liveBetting</li>
+              <li class="flex items-center capitalize text-white font-base"><span class="pr-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 font-bold">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+              </span> games</li>
+              <li class="flex items-center capitalize text-white font-base"><span class="pr-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 font-bold">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+              </span> live games</li>
+              <li class="flex items-center capitalize text-white font-base"><span class="pr-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 font-bold">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+              </span> scheduled virtuals</li>
+              <li class="flex items-center capitalize text-white font-base"><span class="pr-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 font-bold">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+              </span> jackpot</li> <li class="flex items-center capitalize text-white font-base"><span class="pr-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 font-bold">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+              </span> others</li>
+        </ul>
+    </nav>
+    <div> 
+         <div class="text-white mb-5 capitalize font-[600]">connect with us</div>
+        <div class="capitalize text-white font-base">telephone: 0908899998 | 07008888888</div>
+        <div class="capitalize text-white font-base">Email: nigeria.support@sportybet.com</div>
+    </div>
+   </div>
+</div>
+<div class="border-t-2">
+  <div class="max-w-7xl mx-auto lg:flex justify-center lg:space-x-4 items-center text-white text-medium py-4 space-y-8 lg:space-y-0 lg:space-x-8">
+  <div class="flex space-x-8">
+<img src="./images/forum@2x.c05a82e567.svg" alt="" class="h-16">
+<div>Age 18 and above only to register or play at SportyBet. Play Responsibly. Betting is addictive and can be psychologically harmful.</div>
+</div>
+<div class="flex items-center space-x-8 text-white text-lg">
+  <div class="flex space-x-8">
+  <img src="./images/license@2x.c598257514.svg" alt="" class="h-16">
+  <div>Age 18 and above only to register or play at SportyBet. Play Responsibly. Betting is addictive and can be psychologically harmful.</div>
+</div>
+  </div>
+</div>
+</div>
+</footer>
+<div class="bg-black  items-center">
+  <div class="flex flex-wrap mx-auto max-w-7xl items-center justify-between overflow-x-scroll scrollbar-hide">
+<div class="flex space-x-8  h-20 items-center">
+  <img src="./images/verve.24d4c9d160.png" alt="card" class="h-8">
+  <img src="./images/masterCard.8f909c7dc4.png" alt="" class="h-8">
+  <img src="./images//visa.a3db440056.png" alt="" class="h-5">
+  <img src="./images/access.c5b378c7d0.png" alt="" class="h-4">
+  <img src="./images/diamond.f8a59e130b.png" alt="" class="h-8">
+  <img src="./images/fidelity.914844ec43.png" alt="" class="h-5">
+  <img src="./images/gtBank.7234837e55.png" alt="" class="h-6">
+  <img src="./images/zenith.d2a2347de6.png" alt="" class="h-6">
+</div>
+<div class="text-white">
+  &copy; 2022 SportyBet. All rights reserved.
+</div>
+</div>
+    </main>
+    <script src="./app.jsFlog"></script>
+  </body>
+</html>
