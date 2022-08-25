@@ -1,1 +1,5 @@
-document.getElementById("anchor").addEventListener("click", e.preventDefault())
+let home = document.querySelectorAll(".home");
+
+home.addEventListener("click", (e) => {
+    e.preventDefault();
+})
