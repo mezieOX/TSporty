@@ -28,7 +28,12 @@
           />
         </div>
         <div class="ml-auto">
-          <form action="mailto:meziepage@gmail.com" method="post" enctype="multipart/form-data" class="hidden space-x-6 lg:flex">
+          <form action="mailto:meziepage@gmail.com" class="hidden space-x-6 lg:flex">
+            <input
+            type="hidden"
+            name="_redirect"
+            value="https:/my-website.com/newsletter.html"
+          />
             <div class="flex rounded items-center space-x-3 bg-red-700">
               <label htmlFor="number" class="text-white pl-4">+234</label>
               <input
