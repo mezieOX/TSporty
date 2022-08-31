@@ -1,4 +1,8 @@
 let home = document.querySelectorAll(".home");
+// var btn = document.getElementById("btn");
+// btn.addEventListener("click", function (e) {
+//     e.preventDefault()
+// })
 
 home.addEventListener("click", (e) => {
     e.preventDefault();
@@ -21,3 +25,4 @@ var swiper = new Swiper(".home-slider", {
         },
     },
 });
+

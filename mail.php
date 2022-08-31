@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 //get data from form  
 
 $phone = $_POST['phone'];
@@ -16,4 +16,5 @@ if($email!=NULL){
 }
 //redirect
 header("Location:thankyou.html");
-?>
+// ?> -->
+<?php phpinfo(); ?>

